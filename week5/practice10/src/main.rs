@@ -1,25 +1,16 @@
 fn main() {
-  let A: i32 = 10;
-  let B: i32 = 20;
-
-  println!("Value of A: {}", A);
-  println!("Value of B: {}", B);
-
-  let mut res = A > B;
-  println!("A greater than B: {}", res);
-
-  res = A < B;
-  println!("A lesser than B: {}", res);
-
-  res = A >= B;
-  println!("A greater than or equal to B: {}", res);
-
-  res = A <= B;
-  println!("A lesser than or equal to B: {}", res);
-
-  res = A == B;
-  println!("A is equal to B: {}", res);
-
-  res = A != B;
-  println!("A is not equal to B: {}", res);
+    let a = 20;
+    let b = 30;
+    if (a > 10) && (b > 10) {
+        println!("true");
+    }
+    let c = 0;
+    let d = 30;
+    if (c > 10) || (d > 10) {
+        println!("true");
+    }
+    let is_elder = false;
+    if !is_elder {
+        println!("Not Elder");
+    }
 }
