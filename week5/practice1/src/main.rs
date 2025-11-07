@@ -7,4 +7,6 @@ fn main() {
     let department: &'static str = "Computer Science";
     let school: &'static str = "School of Science and Technology";
     println! ("Department: {}, \nSchool: {}", department, school);
+
+    
 }
