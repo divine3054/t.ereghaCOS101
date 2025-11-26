@@ -6,7 +6,7 @@ fn main() {
 
     
     file.write_all("\nHello class".as_bytes()).expect("Write Failed");
-    file.write_all("\nThis is the appendage to the document".as_bytes()).expect("Write failed");
+    file.write_all("\n This is the appendage to the document".as_bytes()).expect("Write failed");
     
     println!("file append success")
 }
