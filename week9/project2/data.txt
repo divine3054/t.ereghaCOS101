@@ -1,0 +1,7 @@
+PAU SMIS - Student Records
+Student Name         Matric Number   Department      Level
+Oluchi Mordi         ACC10211101     Accounting      300  
+Adams Aliyu          ECO10100111     Economics       200  
+Shania Bolade        CSC10328828     Computer        200  
+Adekunle Gold        EEE10202002     Electrical      100  
+Blanca Edemon        MEE10202001     Mechanical      100  
